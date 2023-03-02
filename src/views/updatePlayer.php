@@ -8,6 +8,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
     <link rel="stylesheet" href="../libs/css/bootstrap-utilities.min.css">
+    <style>
+        body {
+    background-image: url('https://thumbs.dreamstime.com/b/soccer-training-equipment-green-artificial-turf-material-trainning-class-football-academy-football-training-ground-d-174778405.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+    </style>
 </head>
 
 <body>
@@ -22,7 +31,7 @@
     ?>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.php">Player List</a>
+            <a class="navbar-brand" href="../index.php"><font color="black"> Player List </font> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
