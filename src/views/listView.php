@@ -7,11 +7,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../libs/css/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="../libs/css/bootstrap-utilities.min.css">    
+<style>
+    botton{
+    
+    }
+    h5{
+        color: white;
+    }
+    body {
+  background-image: url('https://thumbs.dreamstime.com/b/soccer-training-equipment-green-artificial-turf-material-trainning-class-football-academy-football-training-ground-d-174778405.jpg');
+    }
+</style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Player List</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
@@ -23,7 +34,7 @@
                     <li class="nav-item">
                         <!-- <a class="nav-link" href="../index.php?playerRout=add">เพิ่มข้อมูล</a> -->
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#addModel">
-                            เพิ่มผู้เล่น
+                            <font color="white">เพิ่มผู้เล่น</font>
                         </button>
                     </li>
                 </ul>
@@ -38,8 +49,15 @@
     <div class="modal fade" id="addModel" tabindex="-1" aria-labelledby="addLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
+                <div class="">
+                  <img class="card-img-top" src="holder.js/100px180/" alt="Title">
+                  <div class="card-body">
+                    <h4 class="card-title">Title</h4>
+                    <p class="card-text">Text</p>
+                  </div>
+                </div>
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="addLabel">Modal title</h1>
+                    <h1 class="modal-tit2le fs-5" id="addLabel">Modal title</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form action="../index.php?playerRout=add" method="post" enctype="multipart/form-data">
@@ -121,9 +139,16 @@
         </div>
     </div>
 
+    <!-- footer-->
+    <footer class="py-lg-5 bg-dark ">
+        <div class="container">
+            <p class="m-0 text-center text-light">Copyright &copy; Nakhon Pathom
+                Rajabhat University 2021</p>
+        </div>
+    </footer>
     <!-- end content show player  -->
 
-    <script src="../libs/js/bootstrap.min.js"></script>
+    <script src="../libs/js/bootstrap.min.js"></scrip>
     <script src="../libs/js/bootstrap.bundle.min.js"></script>
     <script src="../libs/js/main.js"></script>
 </body>
