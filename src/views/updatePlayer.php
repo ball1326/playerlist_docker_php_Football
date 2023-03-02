@@ -31,7 +31,7 @@
     ?>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.php"><font color="black"> Player List </font> </a>
+            <a class="navbar-brand" href="../index.php"> Player List </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -40,36 +40,36 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="addLabel">Modal title</h1>
+                    <h1 class="modal-title fs-5" id="addLabel"> Modal title </h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <form action="../index.php?playerRout=update" method="post" enctype="multipart/form-data">
                     <div class="modal-body">
                         <div class="mb-3">
-                            <label for="" class="form-label">ชื่อ</label>
+                            <label for="" class="form-label"> ชื่อ </label>
                             <input type="text" name="firstname" id="firstname" class="form-control" value="ชื่อ"
                                 aria-describedby="helpId">
 
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">นามสกุล</label>
+                            <label for="" class="form-label"> นามสกุล </label>
                             <input type="text" name="lastname" id="lastname" class="form-control" value="นามสกุล"
                                 aria-describedby="helpId">
 
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">ทีม</label>
+                            <label for="" class="form-label"> ทีม </label>
                             <input type="text" name="team" id="team" class="form-control" value="ทีม"
                                 aria-describedby="helpId">
 
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">ตำแหน่ง</label>
+                            <label for="" class="form-label"> ตำแหน่ง </label>
                             <input type="text" name="position" id="position" class="form-control" value="ตำแหน่ง"
                                 aria-describedby="helpId">
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">รูป</label>
+                            <label for="" class="form-label"> รูป </label>
                             <input type="image" name="image_url" id="image_url" class="form-control">
                         </div>
                     </div>
@@ -108,30 +108,30 @@
                         <input type="hidden" name="identifier" value="<?php echo ($player->identifier); ?>">
                         <input type="hidden" name="old_image" value="<?php echo ($player->image_url); ?>">
                         <div class="mb-3">
-                            <label for="" class="form-label">ชื่อ</label>
+                            <label for="" class="form-label"><font color="#fff"> ชื่อ </font></label>
                             <input type="text" name="firstname" id="firstname" class="form-control"
                                 value="<?php echo $player->firstname; ?>"
                                  aria-describedby="helpId">
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">นามสกุล</label>
+                            <label for="" class="form-label"><font color="#fff"> นามสกุล </font></label>
                             <input type="text" name="lastname" id="lastname" class="form-control"
                                 value="<?php echo ($player->lastname) ?>" aria-describedby="helpId">
 
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">ทีม</label>
+                            <label for="" class="form-label"><font color="#fff"> ทีม </font></label>
                             <input type="text" name="team" id="team" class="form-control"
                                 value="<?php echo ($player->team) ?>" aria-describedby="helpId">
 
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">ตำแหน่ง</label>
+                            <label for="" class="form-label"><font color="#fff"> ตำแหน่ง </font></label>
                             <input type="text" name="position" id="position" class="form-control"
                                 value="<?php echo ($player->position) ?>" aria-describedby="helpId">
                         </div>
                         <div class="mb-3">
-                            <label for="" class="form-label">รูป</label>
+                            <label for="" class="form-label"><font color="#fff"> รูป </font></label>
                             <input type="file" name="image_url" id="image_url" class="form-control"
                                 aria-describedby="helpId">
                         </div>
