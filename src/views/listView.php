@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="../libs/css/bootstrap.min.css">
     <link rel="stylesheet" href="../libs/css/bootstrap-utilities.min.css">    
 <style>
-    botton{
-    
-    }
     h5{
         color: white;
     }

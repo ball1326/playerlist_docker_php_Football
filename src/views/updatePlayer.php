@@ -29,9 +29,9 @@
     $modelPeyer = new PlayerModel($conf);
     $player = json_decode($modelPeyer->getPlayer($identifier));
     ?>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="../index.php"><font color="black"> Player List </font> </a>
+            <a class="navbar-brand" href="../index.php"><font color="#fff"> Player List </font> </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -87,7 +87,7 @@
                     <li class="nav-item">
                         <!-- <a class="nav-link" href="../index.php?playerRout=add">เพิ่มข้อมูล</a> -->
                         <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#addModel">
-                            เพิ่มผู้เล่น
+                        <font color="#fff"> เพิ่มข้อมูล </font>
                         </button>
                     </li>
                 </ul>
